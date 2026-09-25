@@ -126,12 +126,14 @@ th:nth-child(2),td:nth-child(2){text-align:left;width:100%}
 th:first-child,td:first-child{text-align:left}
 tr.top td{font-weight:600;background:rgba(242,240,235,.07)}
 
-.spell span{opacity:0;display:inline-block}
-.spell .l1{animation:sp1 3.3s infinite}
-.spell .l2{animation:sp2 3.3s infinite}
-.spell .l3{animation:sp3 3.3s infinite}
-.spell .l4{animation:sp4 3.3s infinite}
-.spell .l5{animation:sp5 3.3s infinite}
+.spell span{opacity:0;display:inline-block} 
+.spell .l{animation:sp1 1,3s infinite}
+.spell .3{animation:sp1 1,3s infinite}
+.spell .5{animation:sp1 1,3s infinite}
+.spell .7{animation:sp2 1.3s infinite}
+.spell .9{animation:sp3 1.3s infinite}
+.spell .11{animation:sp4 1.3s infinite}
+.spell .13{animation:sp5 1.3s infinite}
 @keyframes sp1{0%{opacity:1}76%{opacity:1}85%{opacity:0}100%{opacity:0}}
 @keyframes sp2{0%,5.9%{opacity:0}6%{opacity:1}76%{opacity:1}85%{opacity:0}100%{opacity:0}}
 @keyframes sp3{0%,11.9%{opacity:0}12%{opacity:1}76%{opacity:1}85%{opacity:0}100%{opacity:0}}
